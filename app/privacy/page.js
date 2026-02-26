@@ -6,8 +6,8 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <>
-      <PageHero title="Privacy Policy" subtitle="How Ventures Travel handles your data." />
+    <>  
+      <PageHero title="Privacy Policy" subtitle="How Travnex handles your data." />
       <section className="section-wrap pt-4">
         <article className="glass rounded-3xl p-6 text-sm text-slate-200">
           <p>

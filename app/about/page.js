@@ -3,14 +3,14 @@ import CTASection from "@/components/CTASection";
 
 export const metadata = {
   title: "About Us",
-  description: "Meet Ventures Travel and our mission for premium travel excellence.",
+  description: "Meet Travnex and our mission for premium travel excellence.",
 };
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
-        title="About Ventures Travel"
+        title="About Travnex"
         subtitle="We are a premium travel and venture company focused on elevated journeys, clear logistics, and measurable service quality."
       />
       <section className="section-wrap pt-4">

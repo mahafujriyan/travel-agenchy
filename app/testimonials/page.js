@@ -4,7 +4,7 @@ import CTASection from "@/components/CTASection";
 
 export const metadata = {
   title: "Testimonials",
-  description: "See what clients say about Ventures Travel experiences.",
+  description: "See what clients say about Travnex experiences.",
 };
 
 export default function TestimonialsPage() {

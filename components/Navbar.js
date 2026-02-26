@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -22,9 +23,9 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 px-4 pt-3">
-      <nav className="glass glow-ring mx-auto flex max-w-6xl items-center justify-between rounded-2xl px-4 py-3">
+      <nav className="glass glow-ring mx-auto flex max-w-6xl items-center justify-between rounded-2xl px-4 py-2">
         <Link href="/" className="text-lg font-semibold tracking-wide">
-          Ventures Travel
+       <Image src="/travelnex-bg.png" alt="Logo" width={100} height={10} />
         </Link>
         <button
           className="text-2xl lg:hidden"

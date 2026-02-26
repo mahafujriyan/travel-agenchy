@@ -5,7 +5,7 @@ import { destinations } from "@/lib/data";
 
 export const metadata = {
   title: "Destinations",
-  description: "Explore curated premium destinations by Ventures Travel.",
+  description: "Explore curated premium destinations by Travnex .",
 };
 
 export default function DestinationsPage() {

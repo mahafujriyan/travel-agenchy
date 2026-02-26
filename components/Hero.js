@@ -73,7 +73,7 @@ export default function Hero() {
             transition={{ delay: 0.4, duration: 0.7 }}
             className="max-w-xl text-slate-200"
           >
-            Ventures Travel designs elevated global experiences for teams,
+            Travnex designs elevated global experiences for teams,
             founders, and high-performance professionals.
           </motion.p>
           <motion.div

@@ -10,7 +10,7 @@ export default function HomePage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "TravelAgency",
-    name: "Ventures Travel",
+    name: "Travnex",
     url: "https://ventures-travel.vercel.app",
     description:
       "Premium corporate and luxury travel planning with curated destinations and concierge support.",

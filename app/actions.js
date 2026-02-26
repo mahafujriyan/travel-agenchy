@@ -23,7 +23,7 @@ const contactSchema = z.object({
 async function maybeSendEmail(subject, html) {
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.BUSINESS_EMAIL;
-  const from = process.env.FROM_EMAIL || "Ventures Travel <onboarding@resend.dev>";
+  const from = process.env.FROM_EMAIL || "Travnex <onboarding@resend.dev>";
   if (!apiKey || !to) return;
 
   const resend = new Resend(apiKey);
